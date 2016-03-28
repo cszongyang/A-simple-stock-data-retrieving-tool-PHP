@@ -4,7 +4,7 @@
 A single page stock data search applicatioin, including the following functions -
 * Auto-complete -- allows a user to enter a keyword (company symbol or company name) to retrieve information (quote information, news and stock chart) from Markit on Demand by making an AJAX call on every keystroke that is entered.
 
-*  On the server side the php scripts extract the stock details of the company symbol, perform an API request to Markit on Demand, and returns the data in JSON data.
+*Stock data displaying --  On the server side the php scripts extract the stock details of the company symbol, perform an API request to Markit on Demand, and returns the data in JSON data.
 
 *  Current Day Stock Chart -- An image of the current daily chart of the stock of the company retrieved via Yahoo charts API.
 
