@@ -1,0 +1,75 @@
+html {
+    overflow-y: scroll;
+}
+
+div{
+
+	border-radius: 5px;
+	border: 1px solid ##F3F3F3;
+}
+table {
+  width: 100%;
+}
+
+
+
+#upper{
+	margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+#searchBox{
+	padding: 4%;
+	background-color: #F3F3F3;
+}
+
+#list{
+	background-color: #F3F3F3;
+}
+
+.toggle{
+	margin-right:0px;
+}
+
+#chartContainer{
+	
+}
+
+#innerContainer{
+	background-color: #F3F3F3;
+	border: 1px solid #E0E0E0;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 20px;
+}
+
+#div1{
+	padding: 0px;
+}
+
+.highcharts-container{
+	width: 100%;
+}
+
+#lower{
+	margin-top: 30px;
+}
+
+.row{
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.newsBlock{
+	margin-bottom: 30px;
+	padding: 20px;
+	background-color: #F3F3F3;
+}
+
+#inter{
+	margin-bottom: 20px;
+	background-color: #E0E0E0;
+	padding: 10px;
+
+}
