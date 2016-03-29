@@ -13,3 +13,12 @@ A single page stock data search applicatioin, including the following functions 
 *  News Feed --  Using the Google News Feed API to fetch related news to current queried company.
 
 *  Favorite stock list -- Using html5 local storage.
+
+###Screen shots
+![Alt text](/Screen_shots/1.png?raw=true "1")
+
+![Alt text](/Screen_shots/2.png?raw=true "2")
+
+![Alt text](/Screen_shots/3.png?raw=true "3")
+
+![Alt text](/Screen_shots/4.png?raw=true "4")
