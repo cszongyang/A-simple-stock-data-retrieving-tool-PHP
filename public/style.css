@@ -1,9 +1,12 @@
 html {
     overflow-y: scroll;
 }
+body{
+	background-color: #0F5975;
+}
 
 div{
-
+    
 	border-radius: 5px;
 	border: 1px solid ##F3F3F3;
 }
@@ -11,36 +14,40 @@ table {
   width: 100%;
 }
 
-
-
 #upper{
-	margin-top: 4%;
+	margin-top: 3%;
+  padding-top: 1%;
+  padding-bottom: 2%;
     margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #F3F3F3;
 }
 
 #searchBox{
-	padding: 4%;
 	background-color: #F3F3F3;
 }
 
-#list{
+.list{
 	background-color: #F3F3F3;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .toggle{
 	margin-right:0px;
 }
 
-#chartContainer{
-	
+#ChartComp{
+	margin-top: 20px;
 }
 
-#innerContainer{
-	background-color: #F3F3F3;
+.innerContainer{
+	background-color: #FFFFFF;
 	border: 1px solid #E0E0E0;
 	padding-left: 0px;
 	padding-right: 0px;
-	margin: 20px;
+	margin: 2%;
 }
 
 #div1{
@@ -70,6 +77,105 @@ table {
 #inter{
 	margin-bottom: 20px;
 	background-color: #E0E0E0;
-	padding: 10px;
+	padding: 0px;
+	position:relative;
 
 }
+
+.fillcolor{
+	 border-color: blue;
+}
+
+#detail{
+	background-color: #FFFFFF;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+
+#detailUpper{
+	background-color: #F0F0F0;
+	margin-bottom: 20px;
+	margin-top: 0;
+	padding-top: 0;
+	padding-left: 10;
+
+}
+
+#myCarousel{
+	width: 100%;
+}
+
+#favoriteListTable td{
+	vertical-align: middle;
+}
+
+#favoriteBtnGroup{
+
+}
+
+.white-star{
+  color: white;
+  text-shadow: -1px 0 #828282, 0 1px #828282, 1px 0 #828282, 0 -1px #828282;
+}
+
+.yellow-star{
+  color: yellow;
+  text-shadow: -1px 0 #828282, 0 1px #828282, 1px 0 #828282, 0 -1px #828282;
+}
+
+#refreshDiv{
+  float: right;
+  /*  position:absolute;
+    top:50%; 
+    float: right;
+    text-align:center;*/
+
+}
+
+#favoritelabel{
+    position:absolute;
+    top:50%; 
+    float: left;
+    text-align:center;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media ( max-width : 768px ) {
+
+  .col_1{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;       
+    } 
+
+  .list{
+        margin-left: 0;
+        margin-right: 0;
+   }
+
+   #upper{
+        margin-left: 0;
+        margin-right: 0;
+   }
+
+   .hiddenText{
+   	    display: none;
+   }
+
+   #refreshDiv{
+        display: none;
+   }
+
+}
+/* Medium devices (desktops, 992px and up) */
+@media ( max-width : 992px ) {
+  
+}
+/* Large devices (large desktops, 1200px and up) */
+@media ( max-width : 1200px ) {
+
+}
+
+
