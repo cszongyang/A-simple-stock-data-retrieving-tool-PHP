@@ -1,5 +1,6 @@
 # Stock_searching_application
 
+The implementation of this application on AWS is here: http://stocksearching.us-west-2.elasticbeanstalk.com/
 
 A single page stock data search applicatioin, including the following functions -
 * Auto-complete -- allows a user to enter a keyword (company symbol or company name) to retrieve information (quote information, news and stock chart) from Markit on Demand by making an AJAX call on every keystroke that is entered.
