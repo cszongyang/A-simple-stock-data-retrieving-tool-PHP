@@ -11,7 +11,7 @@ A single page stock data search applicatioin, including the following functions 
 
 *  Historical Charts --  implemented using HighCharts’ Highstock (www.highcharts.com/stock/demo). The result chart have the following zoom levels: 1 week, 1 month, 3 months, 6 months, 1 year, YTD and All.
 
-*  News Feed --  Using the Google News Feed API to fetch related news to current queried company.
+*  News Feed --  Using the Bing News Feed API to fetch related news to current queried company.
 
 *  Favorite stock list -- Using html5 local storage.
 
